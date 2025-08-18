@@ -130,20 +130,26 @@ header > #conteudo{
     padding: 15px; 
     border-radius: 20px;
     
+}
 
+#conteudo > p >strong{
 
-
-
+    color: var(--cor4);
+    
 }
 
 nav > a:hover{
 
    
     background-color: var(--cor3);
-    border-radius: 30px;
+    border-radius: 30px 30px 0px 0px;
     transition-duration: 0.5s;
     text-shadow: 1px 1px 1px black;
-   
+    font-size: 19px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
 
 }
 
@@ -169,6 +175,7 @@ footer > a > img{
 
 }
 
+/* Tela para celular*/
 
 @media (max-width:900px){
 
@@ -178,13 +185,10 @@ body{
 
 }
 
-main{
-    
-
-
-
+header > #conteudo{
+    margin-top: 60px;
+    margin-left: 0px;
 }
-
 
 nav{
 
@@ -224,7 +228,6 @@ main > header {
     
 }
 
-
 footer{
 
     display: flex;
@@ -232,9 +235,23 @@ footer{
 
 }
 
+#habilidades > div {
+
+    display: flex;
+    flex-direction: column;
 
 }
 
+#portifolio > div {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+}
+
+/*Pagina de Habilidades */
 #habilidades > h1{
 
     text-align: center;
@@ -266,5 +283,62 @@ footer{
     width: 300px;
     font-family: var(--fonte-principal);
     font-weight: 300;
+
+}
+
+#habilidades > div {
+    
+    column-count: 2;
+    padding-bottom: 200px;
+}
+
+/* Pagina para o portifolio*/
+
+#portifolio > div {
+
+    margin-top: 20px;
+    margin-left: 30px;
+
+
+}
+
+#portifolio > h1{
+
+    text-align: center;
+    padding-top: 20px;
+    font-family: var(--fonte-principal);
+
+}
+
+#portifolio  > div > h2{
+
+    font-family: var(--fonte-secundaria);
+    color: var(--cor4);
+    text-shadow: 1px 1px 1px black;
+    padding-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#portifolio > div > p {
+
+    width: 300px;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+
+}
+
+#portifolio > div {
+    
+    column-count: 2;
+    padding-bottom: 200px;
+}
+
+.ferramentas{
+
+    color: var(--cor3);
+    font-size: 13px;
+    padding-top: 5px;
+
 
 }
