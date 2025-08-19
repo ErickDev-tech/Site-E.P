@@ -109,6 +109,7 @@
     margin-bottom: 40px;
     font-size: 20px;
     color: #ddd;
+    font-family: var(--fonte-principal);
     
   }
   
@@ -273,6 +274,9 @@
 .skill-card p {
     font-size: 0.9rem;
     color: #ccc;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    text-shadow: 1px 1px 1px black;
 }
 
 /* Responsividade */
@@ -301,6 +305,12 @@ h1 {
     text-align: center;
     margin-bottom: 30px;
     color: #fff;
+}
+
+#portifolio >p {
+
+    font-family: var(--fonte-principal);
+    text-shadow: 1px 1px 1px black;
 }
 
 #portifolio{
