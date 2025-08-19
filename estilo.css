@@ -250,10 +250,40 @@ main > header {
     
 }
 
-footer{
+footer > a{
 
-    display: flex;
-    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+
+}
+
+footer > a:hover{
+
+    background-color: var(--cor2);
+    color: white;
+    border-color: var(--cor2);
+    box-shadow:0 0 10px var(--cor2);
+
+}
+
+#conteudo >a{
+
+    background-color: var(--cor2);
+    color: white;
+    border-color: var(--cor2);
+    box-shadow:0 0 8px var(--cor2);
+    
+}
+
+#conteudo > a:hover{
+
+    box-shadow:0 0 13px var(--cor2);
+    color: black;
 
 }
 
