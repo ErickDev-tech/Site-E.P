@@ -152,13 +152,22 @@ nav > a:hover{
 
 }
 
+#conteudo >a{
+
+    background-color: var(--cor2);
+    color: white;
+    border-color: var(--cor2);
+    box-shadow:0 0 8px var(--cor2);
+    
+}
+
 #conteudo > a:hover{
 
-color: black;
-background-color: var(--cor4);
-
+    box-shadow:0 0 13px var(--cor2);
+    color: black;
 
 }
+
 
 footer{
 
@@ -167,10 +176,24 @@ justify-content: end;
 margin-top: 180px;
 }
 
-footer > a > img{
+footer > a{
 
-    width: 30px;
-    padding-right: 10px;
+    color: black;
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+
+}
+
+footer > a:hover{
+
+    background-color: var(--cor2);
+    color: white;
+    border-color: var(--cor2);
+    box-shadow:0 0 10px var(--cor2);
 
 }
 
