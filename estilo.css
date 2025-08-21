@@ -127,6 +127,7 @@
     box-shadow: 0 0 10px var(--cor2);
     font-weight: 600;
     transition: 0.3s;
+    text-decoration:none;
   }
   
   #conteudo > a:hover {
